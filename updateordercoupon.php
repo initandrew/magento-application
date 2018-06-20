@@ -1,6 +1,6 @@
 <pre>
 <?php
-include('/var/www/vhosts/lunabazaar.com/httpdocs/app/bootstrap.php');
+include('app/bootstrap.php');
 use Magento\Framework\App\Bootstrap;
 $bootstrap = Bootstrap::create(BP, $_SERVER);
 
